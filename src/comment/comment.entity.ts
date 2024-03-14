@@ -1,6 +1,6 @@
-import { UserEntity } from 'src/user/user.entity';
-import { Base } from 'src/utils/base';
-import { VideoEntity } from 'src/video/video.entity';
+import { UserEntity } from '../user/user.entity';
+import { Base } from '../utils/base';
+import { VideoEntity } from '../video/video.entity';
 import { Column, Entity, JoinColumn, ManyToOne } from 'typeorm';
 
 @Entity('Comment')

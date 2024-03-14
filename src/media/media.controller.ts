@@ -7,7 +7,7 @@ import {
   UseInterceptors,
 } from '@nestjs/common';
 import { FileInterceptor } from '@nestjs/platform-express';
-import { Auth } from 'src/auth/decarator/auth.decarator';
+import { Auth } from '../auth/decarator/auth.decarator';
 import { MediaService } from './media.service';
 
 @Controller('media')

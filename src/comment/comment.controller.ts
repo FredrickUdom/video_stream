@@ -6,8 +6,8 @@ import {
   UsePipes,
   ValidationPipe,
 } from '@nestjs/common';
-import { Auth } from 'src/auth/decarator/auth.decarator';
-import { CurrentUser } from 'src/user/user.decorator';
+import { Auth } from '../auth/decarator/auth.decarator';
+import { CurrentUser } from '../user/user.decorator';
 import { CommentDto } from './comment.dto';
 import { CommentService } from './comment.service';
 
